@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <link href="./assets/css/css2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Agency</title>
+</head>
+<body>
+
+  <!-- MAIN MENU -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h1>Agency</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="agency-nav-link nav-link active" aria-current="page" href="#">SEARCH</a>
+          <a class="agency-nav-link nav-link" href="#services">SERVICES</a>
+          <a class="agency-nav-link nav-link" href="#recommends">RECOMMENDS</a>
+          <a class="agency-nav-link nav-link" href="#contact">CONTACT</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SEARCH FORM -->
+  <div id="search-form" class="hero">
+    <div class="container">
+      <form action="index.html" method="get" class="search-form">
+
+        <div class="form-group" style="flex: 100%">
+          <i class="fa fa-map-marker"></i>
+          <input type="text" name="city" class="form-control" placeholder="Type your destination...">
+        </div>
+
+        <div class="form-group">
+          <i class="fa fa-calendar"></i>
+          <input type="text" class="form-control" id="inputCheckIn" placeholder="Check In">
+        </div>
+
+        <div class="form-group">
+          <i class="fa fa-calendar"></i>
+          <input type="text" class="form-control" id="inputCheckOut" placeholder="Check Out">
+        </div>
+
+        <div class="form-group">
+          <i class="fa fa-bed"></i>
+          <select class="form-control">
+            <option value="">Rooms</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <i class="fa fa-user"></i>
+          <select class="form-control">
+            <option value="">Adults</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <i class="fa fa-user"></i>
+          <select class="form-control">
+            <option value="">Children</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Check</button>
+        </div>
+      </form>
+
+      <p class="need-help">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sunt.
+        <a href="#" style="color: var(--color-primary);">Need Help?</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- SUBSCRIBE -->
+  <section class="section-color">
+    <div class="container text-center">
+      <h2 class="section-title">We are here to help you??</h2>
+      <p class="section-subtitle">Subscribe to get our newsletters</p>
+      <a href="#" class="btn btn-white">Subscribe Newletters</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="section-down-arrow">
+      <polygon fill="var(--color-primary)" points="0,0 100,0 50,50"></polygon>
+    </svg>
+
+    <div class="container">
+      <div class="row">
+        <article class="article col-lg-4">
+          <i class="fa fa-legal article-icon"></i>
+          <h3 class="article-title">Lorem ipsum dolor sit amet consectetur.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus quidem hic! Dolor nulla dolores molestias!</p>
+          <a href="#" class="btn btn-primary btn-fit">Continue reading</a>
+        </article>
+
+        <article class="article col-lg-4">
+          <i class="fa fa-plane article-icon"></i>
+          <h3 class="article-title">Lorem ipsum dolor sit.</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, recusandae? Nisi quas temporibus voluptate eligendi dignissimos!</p>
+          <a href="#" class="btn btn-primary btn-fit">Continue reading</a>
+        </article>
+
+        <article class="article col-lg-4">
+          <i class="fa fa-meetup article-icon"></i>
+          <h3 class="article-title">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, recusandae? Nisi quas temporibus voluptate eligendi dignissimos!</p>
+          <a href="#" class="btn btn-primary btn-fit">Continue reading</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDER -->
+  <section id="recommends" class="section-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="agency-slider">
+
+            <article class="agency-slider-item">
+              <img src="./assets/img/img-01.jpg" alt="">
+              <div class="agency-slider-item-container">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, possimus. Ipsa rem dicta facilis maxime!</p>
+                <a href="" class="btn btn-primary btn-fit">Get More Info</a>
+              </div>
+            </article>
+
+            <article class="agency-slider-item">
+              <img src="./assets/img/img-02.jpg" alt="">
+              <div class="agency-slider-item-container">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, possimus. Ipsa rem dicta facilis maxime!</p>
+                <a href="" class="btn btn-primary btn-fit">View Details</a>
+              </div>
+            </article>
+
+            <article class="agency-slider-item">
+              <img src="./assets/img/img-01.jpg" alt="">
+              <div class="agency-slider-item-container">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, possimus. Ipsa rem dicta facilis maxime!</p>
+                <a href="" class="btn btn-primary btn-fit">More Info</a>
+              </div>
+            </article>
+
+            <article class="agency-slider-item">
+              <img src="./assets/img/img-02.jpg" alt="">
+              <div class="agency-slider-item-container">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, possimus. Ipsa rem dicta facilis maxime!</p>
+                <a href="" class="btn btn-primary btn-fit">Detail Info</a>
+              </div>
+            </article>
+
+            <article class="agency-slider-item">
+              <img src="./assets/img/img-01.jpg" alt="">
+              <div class="agency-slider-item-container">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, possimus. Ipsa rem dicta facilis maxime!</p>
+                <a href="" class="btn btn-primary btn-fit">Read More</a>
+              </div>
+            </article>
+
+            <article class="agency-slider-item">
+              <img src="./assets/img/img-02.jpg" alt="">
+              <div class="agency-slider-item-container">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, possimus. Ipsa rem dicta facilis maxime!</p>
+                <a href="" class="btn btn-primary btn-fit">More Details</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="star-places">
+
+            <div class="star-places-header">
+              <h3>Recommended places</h3>
+              <p>Places that we recommend for you</p>
+            </div>
+
+            <div class="star-places-body">
+              <a href="#">
+                <img src="./assets/img/tn-img-01.jpg" alt="place image">
+                <h4>Europe</h4>
+              </a>
+              <a href="#">
+                <img src="./assets/img/tn-img-02.jpg" alt="place image">
+                <h4>Asia</h4>
+              </a>
+              <a href="#">
+                <img src="./assets/img/tn-img-03.jpg" alt="place image">
+                <h4>Africa</h4>
+              </a>
+              <a href="#">
+                <img src="./assets/img/tn-img-04.jpg" alt="place image">
+                <h4>America</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25569.23672660214!2d3.044621342351106!3d36.76685871712956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb2f877796ffd%3A0x62ac3794efff79ca!2sAlger%20Ctre!5e0!3m2!1sfr!2sdz!4v1666529388843!5m2!1sfr!2sdz" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <form action="" class="contact-form">
+            <div class="form-group">
+              <input type="text" name="" id="" class="form-control" placeholder="Name" required>
+              <i class="fa fa-user"></i>
+            </div>
+    
+            <div class="form-group">
+              <input type="email" name="" id="" class="form-control" placeholder="Email"required>
+              <i class="fa fa-envelope"></i>
+            </div>
+    
+            <div class="form-group">
+              <input type="text" name="" id="" class="form-control" placeholder="Subject" required>
+              <i class="fa fa-book"></i>
+            </div>
+    
+            <div class="form-group">
+              <textarea type="text" name="" id="" class="form-control" placeholder="Message" required rows="9"></textarea>
+              <i class="fa fa-commenting"></i>
+            </div>
+    
+            <button type="submit" class="btn btn-primary">Send Message Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Copyright &copy; 2022 Your Company - Design:
+        <a rel="nofollow" href="#" style="color: var(--color-primary);">Me</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/jquery-3.6.0.js"></script>
+  <script src="./assets/js/jquery-ui.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
